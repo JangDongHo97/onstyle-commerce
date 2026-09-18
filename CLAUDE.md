@@ -40,3 +40,4 @@ com.example.commerce
 - 커밋 메시지는 Conventional Commits 형식(`feat:`, `fix:`, `refactor:` 등)을 따르고, 본문에 "왜" 한 줄을 포함할 것.
 - Git 작업 흐름: `feature/*` 브랜치 → 셀프 PR → merge.
 - 한 번에 여러 기능을 몰아서 만들지 말고, 오늘 계획된 범위만 커밋할 것 (예: 오늘은 엔티티/연관관계까지만, API는 다음 세션).
+- 매 세션 끝(또는 사용자가 요청할 때)에 그날 새로 나온 개념을 `docs/til/YYYY-MM-DD.md`에 정리하고 `docs/til/README.md`의 기록 목록에 추가할 것. 형식은 `docs/til/README.md`를 따르며, 개념 설명뿐 아니라 "이 프로젝트에서 어떻게 쓰였는지"를 반드시 포함. 사용자가 이미 아는 개념은 넣지 말고, 대화 중 설명이 필요했던 것 위주로 적을 것.
