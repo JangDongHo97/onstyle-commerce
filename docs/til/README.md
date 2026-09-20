@@ -25,3 +25,4 @@
 ## 기록
 - [2026-09-16](2026-09-16.md) — JPA 연관관계, LAZY, protected 생성자, BigDecimal
 - [2026-09-19](2026-09-19.md) — 순환 참조/깊이 제한, 검증 위치 결정, ddl-auto
+- [2026-09-20](2026-09-20.md) — webmvc 스타터, springdoc/Boot 버전 호환, open-in-view
