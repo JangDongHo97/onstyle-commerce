@@ -36,6 +36,10 @@ public class Category {
         this.addTo(parent);
     }
 
+    public void rename(String name) {
+        this.name = name;
+    }
+
     public void addTo(Category parent) {
         this.parent = parent;
         parent.children.add(this);
